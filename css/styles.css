@@ -321,7 +321,7 @@ li {
    align-items: center;
    border-radius: 50%;
    justify-content: center;
-   
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link:hover {
    background-color: #404bbf;
@@ -333,9 +333,7 @@ li {
    fill: #f4f4fd;
 }
 
-.social-link-items {
-   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 /*End section three*/
 
 /*Section four*/
