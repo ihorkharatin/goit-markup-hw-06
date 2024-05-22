@@ -396,6 +396,7 @@ li {
 .list-item-forth-section:hover {
    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
    background-color: #fff;
+   transform: translateY(0%);
 }
 
 /*Overlay container*/
@@ -404,14 +405,14 @@ li {
    position: relative;
    overflow: hidden;
 }
-.overlay .overlay-text-description {
+.overlay  {
    position: absolute;
    top: 0;
    left: 0;
    width: 100%;
    height: 100%;
    background-color: #4d5ae5;
-   transform: translateY(0%);
+   transform: translateY(-100%);
    transition: transform 250ms ease-in-out;
    
  }
