@@ -436,7 +436,8 @@ li {
  
 
  .list-item-forth-section:hover,
- .overlay-text-description:hover {
+ .overlay-text-description:hover,
+ .container-overlay:hover {
    transform: translateY(0%);
  }
  
