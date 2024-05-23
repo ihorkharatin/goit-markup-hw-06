@@ -435,6 +435,7 @@ li {
  }
  
 
+ .list-item-forth-section:hover,
  .overlay-text-description:hover {
    transform: translateY(0%);
  }
