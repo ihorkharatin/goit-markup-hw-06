@@ -493,6 +493,7 @@ li {
 
 .social-icons-list-footer {
    gap: 16px;
+   display: flex;
 }
 .social-link-items {
    width: 40px;
