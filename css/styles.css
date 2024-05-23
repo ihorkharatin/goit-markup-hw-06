@@ -489,7 +489,10 @@ li {
 }
 .social-icons-list {
    display: flex; 
-   
+}
+
+.social-icons-list-footer {
+   gap: 16px;
 }
 .social-link-items {
    width: 40px;
