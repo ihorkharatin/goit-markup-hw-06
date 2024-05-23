@@ -435,7 +435,7 @@ li {
  }
  
 
- .list-item-forth-section:hover .overlay {
+ .list-item-forth-section:hover {
    transform: translatey(0);
  }
  
