@@ -436,7 +436,7 @@ li {
  
 
  .list-item-forth-section:hover {
-   transform: translatey(0);
+   transform: translateY(0%);
  }
  
 
