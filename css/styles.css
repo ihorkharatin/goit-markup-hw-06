@@ -428,7 +428,7 @@ li {
 
  .list-item-forth-section:hover,
  .overlay-text-description:hover,
- .container-overlay:hover {
+ .container-overlay:hover .overlay-text-description {
    transform: translateY(0%);
  }
  
