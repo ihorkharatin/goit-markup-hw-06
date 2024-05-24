@@ -520,20 +520,9 @@ li {
 }
 .social-icons-footer {
    fill: #f4f4fd;
-   stroke: #fff;
+
 }
-.social-icons-footer-instagram {
-   fill: #f4f4fd;
-}
-.social-icons-footer-twitter {
-   fill: #f4f4fd;
-}
-.social-icons-footer-facebook {
-   fill: #f4f4fd;
-}
-.social-icons-footer-linkedin {
-   fill: #f4f4fd;
-}
+
 .container-footer {
    display: flex;
    align-items: baseline;
