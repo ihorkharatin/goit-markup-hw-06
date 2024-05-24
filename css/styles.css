@@ -336,7 +336,9 @@ li {
    width: calc((100% - 72px) / 4);
    width: 40px;
    height: 40px;
-   fill:#4d5ae5;  
+   fill:#4d5ae5; 
+    
+   
 }
 .social-link-items {
    gap: 24px;
@@ -518,6 +520,19 @@ li {
 }
 .social-icons-footer {
    fill: #f4f4fd;
+   stroke: #fff;
+}
+.social-icons-footer-instagram {
+   fill: #fff;
+}
+.social-icons-footer-twitter {
+   fill: #fff;
+}
+.social-icons-footer-facebook {
+   fill: #fff;
+}
+.social-icons-footer-linkedin {
+   fill: #fff;
 }
 .container-footer {
    display: flex;
@@ -528,7 +543,5 @@ li {
 .container-footer-logo {
    margin-right: 120px;
 }
-.social-icons-footer {
-   margin-left: 120px;
-}
+
 /* End container media*/
