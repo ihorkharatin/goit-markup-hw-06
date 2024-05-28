@@ -767,6 +767,10 @@ input:checked + label > .modal-container-form-checkbox-tick {
 input:checked + label > .modal-container-form-checkbox-tick
 .modal-container-form-checkbox-link {
    color: #4d5ae5;
+   
+}
+.modal-container-form-checkbox-link {
+   text-decoration: underline;
 }
 .modal-container-form-button-send {
    display: block; 
