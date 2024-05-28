@@ -757,7 +757,7 @@ input::placeholder {
    justify-content: center;
    fill: transparent;
 }
-input:checked + label > span  .modal-container-form-checkbox-tick {
+input:checked + label > .modal-container-form-checkbox-tick {
    background-color: #404bbf;
    border: none;
    fill: #F4F4FD;
