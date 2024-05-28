@@ -756,6 +756,7 @@ input::placeholder {
    align-items: center;
    justify-content: center;
    fill: transparent;
+   margin-right: 5px;
 }
 input:checked + label > .modal-container-form-checkbox-tick {
    background-color: #404bbf;
@@ -763,6 +764,7 @@ input:checked + label > .modal-container-form-checkbox-tick {
    fill: #F4F4FD;
 }
 
+input:checked + label > .modal-container-form-checkbox-tick
 .modal-container-form-checkbox-link {
    color: #4d5ae5;
 }
@@ -781,4 +783,5 @@ input:checked + label > .modal-container-form-checkbox-tick {
    border: none;
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
    align-items: center;
+   margin: 0 auto;
 }
