@@ -758,9 +758,12 @@ input::placeholder {
    fill: transparent;
 }
 .modal-input-name:checked + .modal-container-form-checkbox-user-privacy .modal-container-form-checkbox-tick  {
-   background-color: #404bbf;
+   
    border: none;
    fill: #F4F4FD;
+}
+input:checked + .modal-container-form-checkbox-tick {
+   background-color: #404bbf;
 }
 .modal-container-form-checkbox-link {
    color: #4d5ae5;
