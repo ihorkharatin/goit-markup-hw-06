@@ -757,10 +757,7 @@ input::placeholder {
    justify-content: center;
    fill: transparent;
 }
-.modal-input-name:checked
- + .modal-container-form-checkbox-tick 
- .modal-container-form-checkbox-tick-svg
- .modal-container-form-checkbox-user-privacy  {
+.modal-input-name:checked + .modal-container-form-checkbox-tick  {
    background-color: #404bbf;
    border: none;
    fill: #F4F4FD;
