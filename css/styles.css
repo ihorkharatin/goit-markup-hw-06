@@ -757,7 +757,7 @@ input::placeholder {
    justify-content: center;
    fill: transparent;
 }
-input:checked + .modal-container-form-checkbox-tick  {
+input:checked +  .modal-container-form-checkbox-user-privacy .modal-container-form-checkbox-tick .modal-container-form-checkbox-tick-svg {
    background-color: #404bbf;
    border: none;
    fill: #F4F4FD;
