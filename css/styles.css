@@ -610,8 +610,8 @@ input::placeholder {
    visibility: hidden;  /*hiden modal window*/
 }
 .modal-overlay .is-open {
-   visibility: visible;
-   opacity: 1;
+   visibility: hidden;
+   opacity: 0;
    pointer-events: auto;
 }
 
@@ -711,6 +711,11 @@ input::placeholder {
 }
 
 .modal-input-name:focus + .modal-icon-svg-name,
+.modal-icon-svg-name:hover {
+   fill: #4D5AE5; 
+   stroke: #4D5AE5 ;
+}
+.modal-input-name:hover + .modal-icon-svg-name,
 .modal-icon-svg-name:hover {
    fill: #4D5AE5; 
    stroke: #4D5AE5 ;
