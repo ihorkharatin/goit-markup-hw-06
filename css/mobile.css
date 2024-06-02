@@ -510,12 +510,21 @@ img {
 
 .footer {
   background-color: #2e2f42;
-  /* padding: 100px 0; */
+  color: #f4f4fd;
+  padding: 96px 0;
+}
+.footer .container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.footer-link {
+   display: block;
+   margin: 0 auto;
 }
 
 .footer-link {
-  display: inline-block;
-  margin-bottom: 16px;
+  
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -523,15 +532,17 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin: 0 auto;
-  padding-left: 0;
-  padding-right: 0;
+  /* padding-left: 0;
+  padding-right: 0; */
 }
 .footer-description {
-  line-height: 1.5;
-  color: #f4f4fd;
-  letter-spacing: 0.02em;
-  max-width: 264px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   width: 288px;
+   display: flex;
+   margin-bottom: 72px;
 }
 
 /* Container Social Media*/
@@ -544,13 +555,13 @@ img {
 }
 
 .social-media-title {
-  color: #ffffff;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  margin-bottom: 16px;
-  margin: 0 auto;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #fff;
+   text-align: center;
+   margin-bottom: 16px;
 }
 .social-icons-list {
   display: flex;
@@ -587,30 +598,16 @@ img {
 }
 /*End Container socila media*/
 
-.container-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  gap: 72px;
-}
+
 
 .container-footer-logo {
-  margin-left: 0;
-  margin-top: 96px;
-  margin-right: 0;
-  padding-left: 0;
-  padding-right: 0;
-  justify-content: center;
+display: flex;
+flex-direction: column;
 }
 
 /*Footer form subscribe*/
 
-.container-footer-subscribe {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
 
 .container-footer-subscribe-paragraph {
   margin-bottom: 16px;
@@ -619,13 +616,22 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
+  text-align: center;
 }
 .container-footer-subscribe-form {
   display: flex;
+  flex-direction: column;
   gap: 24px;
 }
+
+.container-footer-subscribe-label {
+   display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
 .container-footer-subscribe-input {
-  max-width: 288px;
+  width: 264px;
   height: 40px;
   border: 1px solid #ffffff;
   background-color: transparent;
@@ -636,13 +642,15 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #ffffff;
+  margin: 0 auto;
 }
 input::placeholder {
   color: #ffffff;
 }
 .container-footer-subscribe-button {
-  min-width: 165px;
+  width: 165px;
   height: 40px;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
