@@ -22,6 +22,18 @@
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
+h1,
+h2,
+h3,
+p {
+   margin: 0;
+}
+
+ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
 /*Mobile menu window*/
 
 .mobile-menu-btn {
@@ -181,7 +193,7 @@ a {
 /* Section one hero*/
 
 .section-business {
-  padding-top: 188px;
+  padding-top: 72px;
   padding-bottom: 188px;
   background-color: #2e2f42;
   background-image: linear-gradient(
@@ -241,7 +253,7 @@ a {
 /*Section two*/
 
 .section-two-strategy {
-  padding-top: 0;
+  padding-top: 96px;
   padding-bottom: 96px;
 }
 
@@ -261,7 +273,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  column-gap: 72px;
+  gap: 72px;
   padding-left: 16px;
   padding-right: 16px;
 }
@@ -282,7 +294,6 @@ a {
 
 .strategy-list-item-advantages {
   margin-bottom: 8px;
-  margin-top: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11111;
@@ -304,7 +315,7 @@ a {
 
 .section-three-our-team {
   background-color: #f4f4fd;
-  padding-top: 120px;
+  padding-top: 96px;
   padding-bottom: 120px;
 }
 
@@ -433,6 +444,10 @@ img {
   display: block;
   object-fit: cover;
   margin: 0 auto;
+  width: 100%; 
+  max-width: 100%;
+  height: auto;
+  overflow:hidden
 }
 
 .list-item-forth-section {
@@ -486,7 +501,7 @@ img {
   margin-left: 0;
   margin-right: 0;
   justify-self: center;
-  max-width: 288px;
+  max-width: 320px;
 }
 
 .title-our-portfolio {
