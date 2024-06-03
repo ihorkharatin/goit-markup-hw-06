@@ -143,8 +143,6 @@
   /*End header section*/
 
   .section-business {
-    padding-top: 188px;
-    padding-bottom: 188px;
     background-color: #2e2f42;
     background-image: linear-gradient(
         to bottom,
@@ -172,6 +170,7 @@
     margin-right: auto;
     min-width: 169px;
     height: 56px;
+    margin-bottom: 188px;
     border: none;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -192,9 +191,9 @@
     letter-spacing: 0.02em;
     color: #ffffff;
     max-width: 496px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px;
+    margin: 0 auto;
+    margin-top: 183px;
+    margin-bottom: 48px;
   }
 
   /*End section one hero*/
@@ -202,8 +201,8 @@
   /*Sectoin two*/
 
   .section-two-strategy {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    margin-top: 120px;
+    margin-bottom: 120px;
   }
 
   .visually-hidden {
@@ -221,9 +220,11 @@
   .container-ul-our-advantages {
     display: flex;
     gap: 24px;
+    max-width: 1128px;
   }
   .list-item {
     width: calc((100% - 72px) / 4);
+    margin-bottom: 0;
   }
 
   /*Container with icons*/
@@ -294,7 +295,7 @@
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
       0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background-color: #fff;
-    margin-bottom: 64px;
+    
   }
 
   img {
@@ -393,19 +394,23 @@
     padding-left: 0;
     margin-bottom: 0;
     margin: 0 auto;
-    overflow: hidden;
+    
   }
 
   img {
-    display: block;
-    object-fit: cover;
-    margin: 0 auto;
+   display: block;
+   object-fit: cover;
+   margin: 0 auto;
+   width: 100%;
+   max-width: 100%;
+   height: auto;
   }
 
   .list-item-forth-section {
     width: calc((100% - 48px) / 3);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    width: 320px;
+    width: 360px;
+    overflow: hidden;
   }
   .list-item-forth-section:hover {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
@@ -579,9 +584,14 @@
     flex-direction: column;
     width: 264px;
     margin-right: 120px;
+    margin-left: 0;
   }
 
   /*Footer form subscribe*/
+  .container-footer-subscribe {
+   margin-left: 0;
+   
+ }
 
   .container-footer-subscribe-paragraph {
     margin-bottom: 16px;
@@ -667,6 +677,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    max-width: 100%;
     width: 408px;
     min-height: 584px;
     background: #fcfcfc;
