@@ -8,13 +8,14 @@
   .container {
     width: 1158px;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   .header-navagation-main .container {
     display: flex;
     align-items: center;
+    padding: 0;
   }
 
   .menu-nav {
@@ -155,6 +156,8 @@
     background-size: cover;
     max-width: 1440px;
     margin: 0 auto;
+    padding-top: 183px;
+    padding-bottom: 188px;
   }
 
   .button-text {
@@ -170,7 +173,6 @@
     margin-right: auto;
     min-width: 169px;
     height: 56px;
-    margin-bottom: 188px;
     border: none;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -192,7 +194,6 @@
     color: #ffffff;
     max-width: 496px;
     margin: 0 auto;
-    margin-top: 183px;
     margin-bottom: 48px;
   }
 
@@ -201,8 +202,8 @@
   /*Sectoin two*/
 
   .section-two-strategy {
-    margin-top: 120px;
-    margin-bottom: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
 
   .visually-hidden {
@@ -283,8 +284,6 @@
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    padding-left: 28px;
-    padding-right: 28px;
     gap: 24px;
   }
   .our-team-images {
@@ -489,13 +488,15 @@
   .footer {
     background-color: #2e2f42;
     color: #f4f4fd;
-    padding: 96px 0;
+    padding-top: 100px;
   }
   .footer .container {
     width: 1158px;
     display: flex;
+    flex-wrap: nowrap;
     flex-direction: row;
-
+    padding-top: 0;
+    padding-left: 0;
     align-items: baseline;
     justify-content: flex-start;
   }
@@ -512,8 +513,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    /* padding-left: 0;
-   padding-right: 0; */
+   margin-bottom: 0;
   }
   .footer-description {
     font-weight: 400;
@@ -522,7 +522,6 @@
     letter-spacing: 0.02em;
     width: 288px;
     display: flex;
-    margin-bottom: 72px;
   }
 
   /* Container Social Media*/
@@ -532,6 +531,7 @@
     flex-direction: column;
     justify-content: center;
     margin-right: 80px;
+    margin-bottom: 0;
   }
 
   .social-media-title {
@@ -585,11 +585,13 @@
     width: 264px;
     margin-right: 120px;
     margin-left: 0;
+    margin-bottom: 0;
   }
 
   /*Footer form subscribe*/
   .container-footer-subscribe {
    margin-left: 0;
+   margin-bottom: 0;
    
  }
 

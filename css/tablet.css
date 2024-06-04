@@ -98,9 +98,10 @@
     margin-left: auto;
   }
   .address-mail {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: 0.04em;
     color: #434455;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -129,6 +130,8 @@
     margin: 0 auto;
     overflow: hidden;
     max-width: 768px;
+    padding-top: 112px;
+    padding-bottom: 112px;
   }
   .button-text {
     font-weight: 500;
@@ -143,7 +146,6 @@
     margin-right: auto;
     min-width: 169px;
     height: 56px;
-    margin-bottom: 112px;
     border: none;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -167,7 +169,6 @@
     color: #fff;
     max-width: 496px;
     margin: 0 auto;
-    margin-top: 112px;
     margin-bottom: 36px;
     color: #fff;
     padding-left: 0;
@@ -200,11 +201,12 @@
     flex-wrap: wrap;
     max-width: 768px;
     gap: 24px;
+    row-gap: 72px;
     margin: 0 auto;
   }
   .list-item {
     width: calc((100% - 24px) / 2);
-    margin-bottom: 72px;
+    
   }
 
   /*Container with icons*/
@@ -248,16 +250,14 @@
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
-    margin-bottom: 72px;
   }
 
   .container-our-team-flex-direction {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    padding-left: 28px;
-    padding-right: 28px;
     gap: 24px;
+    row-gap: 64px;
   }
   .our-team-images {
     background-color: #ffffff;
@@ -465,7 +465,6 @@
   .footer {
     background-color: #2e2f42;
     color: #f4f4fd;
-    
   }
   .footer .container {
     width: 768px;
@@ -475,7 +474,8 @@
     align-items: baseline;
     justify-content: flex-start;
     margin: 0 auto;
-    
+    padding-left: 108px;
+    padding-top: 96px;
   }
   .footer-link {
     margin-left: 0;
@@ -561,13 +561,10 @@
     flex-direction: column;
     width: 264px;
     margin-right: 24px;
-    margin-left: 102px;
   }
 
   /*Footer form subscribe*/
-  .container-footer-subscribe {
-    margin-left: 102px;
-  }
+  
 
   .container-footer-subscribe-paragraph {
     margin-bottom: 16px;

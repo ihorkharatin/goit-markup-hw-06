@@ -203,6 +203,8 @@ a {
   margin: 0 auto;
   overflow: hidden;
   max-width: 320px;
+  padding-top: 72px;
+  padding-bottom: 72px;
 }
 .button-text {
   font-weight: 500;
@@ -221,7 +223,6 @@ a {
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  margin-bottom: 72px;
 }
 
 .button-text:hover {
@@ -240,7 +241,6 @@ a {
   text-align: center;
   max-width: 216px;
   margin: 0 auto;
-  margin-top: 72px;
   margin-bottom: 72px;
   color: #fff;
 }
@@ -250,8 +250,8 @@ a {
 /*Section two*/
 
 .section-two-strategy {
-  margin-top: 96px;
-  margin-bottom: 96px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .visually-hidden {
@@ -333,13 +333,11 @@ a {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  padding-left: 28px;
-  padding-right: 28px;
   gap: 72px;
 }
 .our-team-images {
   background-color: #ffffff;
-  width: calc((100% - 0) / 1);
+  width: calc((100% - 0px) / 1);
   border-radius: 0px 0px 4px 4px;
   overflow: hidden;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
@@ -528,11 +526,13 @@ img {
   background-color: #2e2f42;
   color: #f4f4fd;
   
+  
 }
 .footer .container {
    display: flex;
    flex-direction: column;
    align-items: center;
+   padding-top: 96px;
 }
 .footer-link {
    display: block;
@@ -593,6 +593,7 @@ img {
 .social-link-items {
   width: 40px;
   height: 40px;
+  gap: 24px;
 }
 .social-link-footer {
   width: 100%;
@@ -620,7 +621,6 @@ img {
 .container-footer-logo {
 display: flex;
 flex-direction: column;
-margin-top: 96px;
 margin-bottom: 72px;
 max-width: 288px;
 
@@ -628,6 +628,7 @@ max-width: 288px;
 
 /*Footer form subscribe*/
 .container-footer-subscribe {
+   
    margin-bottom: 96px;
 }
 
